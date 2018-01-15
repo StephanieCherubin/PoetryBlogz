@@ -1,0 +1,21 @@
+<h1>Listing poems</h1>
+<%= link_to 'New poem', new_poem_path %>
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+    <th colspan="3"></th>
+  </tr>
+
+  <% @poems.each do |poem| %>
+    <tr>
+      <td><%= poem.title %></td>
+      <td><%= poem.body %></td>
+      <td><%= link_to 'Show', poem_path(poem) %></td>
+      <td><%= link_to 'Edit', edit_poem_path(poem) %></td>
+      <td><%= link_to 'Destroy', poem_path(poem),
+              method: :delete,
+              data: { confirm: 'Are you sure?'} %></td>
+    </tr>
+  <% end %>
+</table>
