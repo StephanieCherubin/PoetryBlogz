@@ -1,24 +1,12 @@
-# README
+This project gets started with a Rails application from scratch. 
+----------------------------------------------------------------
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Ruby language version 2.2.2 or newer.
+Right version of Development Kit, if you are using Windows.
+The RubyGems packaging system, which is installed with Ruby by default. To learn more about RubyGems, please read the RubyGems Guides.
+A working installation of the SQLite3 Database.
+Rails is a web application framework running on the Ruby programming language. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* The general layout of a Rails application.
+* The basic principles of MVC (Model, View, Controller) and RESTful design.
+* How to quickly generate the starting pieces of a Rails application.
